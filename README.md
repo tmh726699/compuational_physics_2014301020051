@@ -4,3 +4,6 @@ work
 [excercise02](https://github.com/tmh726699/compuational_physics_2014301020051/blob/master/excercise02)
 [excercise03](https://github.com/tmh726699/compuational_physics_2014301020051/blob/master/excercise03)
 [excercise04](https://github.com/tmh726699/compuational_physics_2014301020051/blob/master/excercise04)
+[excercise3](https://github.com/tmh726699/compuational_physics_2014301020051/blob/master/excercise03)
+[excercise3](https://github.com/tmh726699/compuational_physics_2014301020051/blob/master/excercise03)
+[excercise3](https://github.com/tmh726699/compuational_physics_2014301020051/blob/master/excercise03)
