@@ -22,10 +22,12 @@
         time.sleep(0.2)
         import os
         i=os.system('cls')
-### 作业2
+### 作业2(选做未做）
 ## 结论:
 ### 作业1运行结果
 ![截图1](https://github.com/tmh726699/compuational_physics_2014301020051/blob/master/20160925155205.png)
 ![截图2](https://github.com/tmh726699/compuational_physics_2014301020051/blob/master/20160925155224.png)
+## 致谢
+   thanks RanFeng
 
 
