@@ -24,4 +24,5 @@
 ### 作业2
 ## 结论:
       作业一运行结果：
+   ![截图1]（https://github.com/tmh726699/compuational_physics_2014301020051/blob/master/20160925155205.png）
       
