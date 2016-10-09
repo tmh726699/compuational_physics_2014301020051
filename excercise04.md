@@ -53,4 +53,6 @@
 ## 运行截图
     ![运行结果实例](https://github.com/tmh726699/compuational_physics_2014301020051/blob/master/pppp135416.png)
 ## 运行结果
-   ![outcome]() 
+   ![outcome](https://github.com/tmh726699/compuational_physics_2014301020051/blob/master/run%20outcome.png) 
+# 致谢
+  thanks baidu
