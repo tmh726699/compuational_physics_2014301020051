@@ -43,6 +43,6 @@
         a.show_results()
 # 结论
 ## 运行结果
-   ![运行结果]()
+   ![运行结果](https://github.com/tmh726699/compuational_physics_2014301020051/blob/master/2.6.png)
 # 致谢
 thanks peiyu
