@@ -4,7 +4,7 @@ Homework list
 + [excercise02.py](https://github.com/tmh726699/compuational_physics_2014301020051/blob/master/excercise02.py)
 + [excercise03.md](https://github.com/tmh726699/compuational_physics_2014301020051/blob/master/excercise03.md)
 + [excercise04.md](https://github.com/tmh726699/compuational_physics_2014301020051/blob/master/excercise04.md)
-+ [excercise05](https://github.com/tmh726699/compuational_physics_2014301020051/blob/master/excercise05)
++ [excercise05.md](https://github.com/tmh726699/compuational_physics_2014301020051/blob/master/excercise05.md)
 + [excercise06](https://github.com/tmh726699/compuational_physics_2014301020051/blob/master/excercise06)
 + [excercise07](https://github.com/tmh726699/compuational_physics_2014301020051/blob/master/excercise07)
 + [excercise08](https://github.com/tmh726699/compuational_physics_2014301020051/blob/master/excercise08)
