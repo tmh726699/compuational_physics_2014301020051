@@ -12,32 +12,37 @@
 ## 代码
     import pylab as pl
     class cannon:
-    def __init__(self, vel_of_x=50,vel_of_y=50,time_of_duration = 10, time_step = 0.05,value_of_x=0,value_of_y=0,g=10):
-        self.vx = [vel_of_x]
-        self.vy = [vel_of_y]
-        self.x = [value_of_x]
-        self.y = [value_of_y]
-        self.t = [0]
-        self.g = g
-        self.dt = time_step
-        self.time = time_of_duration
-        self.nsteps = int(time_of_duration // time_step + 1)
-    def calculate(self):
-        for i in range(self.nsteps):
-            tmpvx = self.vx[i]
-            tmpvy = self.vy[i] - (self.g * self.dt)
-            tmpx=self.x[i] + self.vx[i] * self.dt
-            tmpy=self.y[i] + self.vy[i] * self.dt
-            self.vx.append(tmpvx)
-            self.vy.append(tmpvy)
-            self.x.append(tmpx)
-            self.y.append(tmpy)
-            self.t.append(self.t[i] + self.dt)
-    def show_results(self):
-        pl.plot(self.x, self.y)
-        pl.xlabel('x ($m$)')
-        pl.ylabel('y ($m$)')
-        pl.show()
-    a = cannon()
-    a.calculate()
-    a.show_results()
+        def __init__(self, vel_of_x=50,vel_of_y=50,time_of_duration = 10, time_step = 0.05,value_of_x=0,value_of_y=0,g=10):
+            self.vx = [vel_of_x]
+            self.vy = [vel_of_y]
+            self.x = [value_of_x]
+            self.y = [value_of_y]
+            self.t = [0]
+            self.g = g
+            self.dt = time_step
+            self.time = time_of_duration
+            self.nsteps = int(time_of_duration // time_step + 1)
+        def calculate(self):
+            for i in range(self.nsteps):
+                tmpvx = self.vx[i]
+                tmpvy = self.vy[i] - (self.g * self.dt)
+                tmpx=self.x[i] + self.vx[i] * self.dt
+                tmpy=self.y[i] + self.vy[i] * self.dt
+                self.vx.append(tmpvx)
+                self.vy.append(tmpvy)
+                self.x.append(tmpx)
+                self.y.append(tmpy)
+                self.t.append(self.t[i] + self.dt)
+        def show_results(self):
+            pl.plot(self.x, self.y)
+            pl.xlabel('x ($m$)')
+            pl.ylabel('y ($m$)')
+            pl.show()
+        a = cannon()
+        a.calculate()
+        a.show_results()
+# 结论
+## 运行结果
+   ![运行结果]()
+# 致谢
+thanks peiyu
