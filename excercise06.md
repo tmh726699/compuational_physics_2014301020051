@@ -6,25 +6,21 @@
 # Text
 ## Code
     #coding:utf-8
-    import pylab as pl
-    import math    import random
+    import pylab as pl    import math    import random
     class cannon_shell:
     def __init__(self,initial_velocity=0.7,g=0.0098,range=0,height=0,target_range=10,target_height=10,time_step=0.005,\
                  da=0.00001*math.pi,\
                  wind_speed=0.01,accuracy=0.01):
-        self.v=initial_velocity
-        self.Vw=wind_speed
+        self.v=initial_velocity        self.Vw=wind_speed
         self.a=math.atan((target_height-height)/(target_range-range))
         self.g=g
         self.dt=time_step
         self.da=da        self.x=[range]
-        self.y=[height]
-        self.xt=target_range
+        self.y=[height]        self.xt=target_range
         self.yt=target_height
         self.b_m=0.004
         self.ture_x=[]
-        self.ture_y=[]
-        self.dxdy=accuracy
+        self.ture_y=[]        self.dxdy=accuracy
 
     def pre_run_test(self):
         _a= 0.001*math.pi        da= 0.001*math.pi
@@ -34,8 +30,7 @@
         a_max=0.5 * math.pi
         while(t>0):
             can2=0 #break
-            while (_a < a_max):
-                can = 0  # judge
+            while (_a < a_max):                can = 0  # judge
                 vx = math.cos(_a) * self.v
                 vy = math.sin(_a) * self.v
                 xi = [0]
@@ -109,7 +104,7 @@
     a.show_result()
 # Conclusion
 ## Figure
-   [1]()
-   [2]()
+   ![1](https://github.com/tmh726699/compuational_physics_2014301020051/blob/master/%E6%88%AA%E5%9B%BE1.png)
+   ![2]()
 # Thanks
   thanks to ZouZhiyuan.
