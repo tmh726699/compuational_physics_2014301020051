@@ -5,7 +5,7 @@ Homework list
 + [excercise03.md](https://github.com/tmh726699/compuational_physics_2014301020051/blob/master/excercise03.md)
 + [excercise04.md](https://github.com/tmh726699/compuational_physics_2014301020051/blob/master/excercise04.md)
 + [excercise05.md](https://github.com/tmh726699/compuational_physics_2014301020051/blob/master/excercise05.md)
-+ [excercise06](https://github.com/tmh726699/compuational_physics_2014301020051/blob/master/excercise06)
++ [excercise06.md](https://github.com/tmh726699/compuational_physics_2014301020051/blob/master/excercise06.md)
 + [excercise07](https://github.com/tmh726699/compuational_physics_2014301020051/blob/master/excercise07)
 + [excercise08](https://github.com/tmh726699/compuational_physics_2014301020051/blob/master/excercise08)
 + [excercise09](https://github.com/tmh726699/compuational_physics_2014301020051/blob/master/excercise09)
