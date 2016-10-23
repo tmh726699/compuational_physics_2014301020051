@@ -105,6 +105,8 @@
 # Conclusion
 ## Figure
    ![1](https://github.com/tmh726699/compuational_physics_2014301020051/blob/master/%E6%88%AA%E5%9B%BE1.png)
-   ![2]()
+   ![2](https://github.com/tmh726699/compuational_physics_2014301020051/blob/master/%E6%88%AA%E5%9B%BE2.png)
+## conclusion
+   Calculating small angle is quikly,but the angle is big which is nearly ![公式名](http://latex.codecogs.com/png.latex?\\pm90^{o}),it      will take me a long time.
 # Thanks
   thanks to ZouZhiyuan.
