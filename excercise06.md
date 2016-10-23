@@ -7,8 +7,7 @@
 ## Code
     #coding:utf-8
     import pylab as pl
-    import math
-    import random
+    import math    import random
     class cannon_shell:
     def __init__(self,initial_velocity=0.7,g=0.0098,range=0,height=0,target_range=10,target_height=10,time_step=0.005,\
                  da=0.00001*math.pi,\
@@ -18,8 +17,7 @@
         self.a=math.atan((target_height-height)/(target_range-range))
         self.g=g
         self.dt=time_step
-        self.da=da
-        self.x=[range]
+        self.da=da        self.x=[range]
         self.y=[height]
         self.xt=target_range
         self.yt=target_height
@@ -29,8 +27,7 @@
         self.dxdy=accuracy
 
     def pre_run_test(self):
-        _a= 0.001*math.pi
-        da= 0.001*math.pi
+        _a= 0.001*math.pi        da= 0.001*math.pi
         dxdy=1.0
         aa=[]
         t=7
@@ -111,6 +108,8 @@
     a.run()
     a.show_result()
 # Conclusion
-
+## Figure
+   [1]()
+   [2]()
 # Thanks
-  thanks to ZhouZhiyuan.
+  thanks to ZouZhiyuan.
