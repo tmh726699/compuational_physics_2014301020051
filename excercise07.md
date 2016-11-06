@@ -1,32 +1,32 @@
 # Abstact
-3.12;3.13;3.14.
-Using Euler-Cromer method to solve the oscillatory motion.
+    3.12;3.13;3.14.
+    Using Euler-Cromer method to solve the oscillatory motion.
 # Background
-In small angle,Newton’s second law:
-![Newton’s second law](http://latex.codecogs.com/gif.latex?d^2\\theta/dt^2=-g\\theta/l).
-The second-order equations:
-![The second-order equations](http://latex.codecogs.com/gif.latex?d\\omega/dt=-g\\theta/l).
-![The second-order equations](http://latex.codecogs.com/gif.latex?d\\theta/dt=\\omega).
-Euler-Cromer method:
-![Euler-Cromer method](http://latex.codecogs.com/gif.latex?\\omega_{i+1}=\\omega_{i}-(g/l)\\theta_{i}\\Delta t).
-![Euler-Cromer method](http://latex.codecogs.com/gif.latex?\\theta_{i+1}=\\theta_{i}+\\omega_{i+1}\\Delta t).
-![Euler-Cromer method](http://latex.codecogs.com/gif.latex?t_{i+1}=t_{i}+\\Delta t).
-Friction:
-![Friction](http://latex.codecogs.com/gif.latex?-q(d\\theta/dt)).
-Driving force:
-![Driving force](http://latex.codecogs.com/gif.latex?F_{D}sin(\\Omega_{D}t)).
-So we obtain:
-![obtain](http://latex.codecogs.com/gif.latex?d\\omega/dt=-gsin\\theta/l-q(d\\theta/dt)+F_{D}sin(\\Omega_{D}t)).
-![obtain](http://latex.codecogs.com/gif.latex?d\\theta/dt=\\omega).
-With Euler-Cromer method:
-![With Euler-Cromer method](http://latex.codecogs.com/gif.latex?\\omega_{i+1}=\\omega_{i}+[-gsin\\theta_{i}/l-q\\omega_{i}+F_{D}sin(\\Omega_{D}t_{i})]\\Delta t).
-![With Euler-Cromer method](http://latex.codecogs.com/gif.latex?\\theta_{i+1}=\\theta_{i}+\\oemga_{i+1}\\Delta t).
-![With Euler-Cromer method](http://latex.codecogs.com/gif.latex?t_{i+1}=t_{i}+\\Delta t).
+    In small angle,Newton’s second law:
+    ![Newton’s second law](http://latex.codecogs.com/gif.latex?d^2\\theta/dt^2=-g\\theta/l).
+    The second-order equations:
+    ![The second-order equations](http://latex.codecogs.com/gif.latex?d\\omega/dt=-g\\theta/l).
+    ![The second-order equations](http://latex.codecogs.com/gif.latex?d\\theta/dt=\\omega).
+    Euler-Cromer method:
+    ![Euler-Cromer method](http://latex.codecogs.com/gif.latex?\\omega_{i+1}=\\omega_{i}-(g/l)\\theta_{i}\\Delta t).
+    ![Euler-Cromer method](http://latex.codecogs.com/gif.latex?\\theta_{i+1}=\\theta_{i}+\\omega_{i+1}\\Delta t).
+    ![Euler-Cromer method](http://latex.codecogs.com/gif.latex?t_{i+1}=t_{i}+\\Delta t).
+    Friction:
+    ![Friction](http://latex.codecogs.com/gif.latex?-q(d\\theta/dt)).
+    Driving force:
+    ![Driving force](http://latex.codecogs.com/gif.latex?F_{D}sin(\\Omega_{D}t)).
+    So we obtain:
+    ![obtain](http://latex.codecogs.com/gif.latex?d\\omega/dt=-gsin\\theta/l-q(d\\theta/dt)+F_{D}sin(\\Omega_{D}t)).
+    ![obtain](http://latex.codecogs.com/gif.latex?d\\theta/dt=\\omega).
+    With Euler-Cromer method:
+    ![With Euler-Cromer method](http://latex.codecogs.com/gif.latex?\\omega_{i+1}=\\omega_{i}+[-gsin\\theta_{i}/l-q\\omega_{i}+F_{D}sin(\\Omega_{D}t_{i})]\\Delta t).
+    ![With Euler-Cromer method](http://latex.codecogs.com/gif.latex?\\theta_{i+1}=\\theta_{i}+\\oemga_{i+1}\\Delta t).
+    ![With Euler-Cromer method](http://latex.codecogs.com/gif.latex?t_{i+1}=t_{i}+\\Delta t).
 # Code
 ## 3.13
-import pylab as pl
-import math
-class oscillatory:
+    import pylab as pl
+    import math
+    class oscillatory:
     def __init__(self,g=10,l=10,q=0.5,F_D=0.5,O_D=2/3,time_step=0.04,\
     total_time=50,initial_theta=0.2,initial_omega=0,initial_omega1=0,\
     initial_theta1=0.201,q1=0.5):
@@ -87,13 +87,13 @@ class oscillatory:
         pl.ylabel(r'$\Delta\theta$(radians)')
         pl.legend((['$F_D$=0.5']))
         pl.show()
-a = oscillatory()
-a.run()
-a.show_results()
+    a = oscillatory()
+    a.run()
+    a.show_results()
 ## 3.14
-import pylab as pl
-import math
-class oscillatory:
+    import pylab as pl
+    import math
+    class oscillatory:
     def __init__(self,g=10,l=10,q=2,F_D=0.5,O_D=2/3,time_step=0.04,\
     total_time=50,initial_theta=0.2,initial_omega=0,initial_omega1=0,\
     initial_theta1=0.2,q1=2.001):
@@ -153,8 +153,8 @@ class oscillatory:
         pl.ylabel(r'$\Delta\theta$(radians)')
         pl.legend((['$F_D$=0.5']))
         pl.show()
-a = oscillatory()
-a.run()
-a.show_results()
+    a = oscillatory()
+    a.run()
+    a.show_results()
 #  Conclusion
 ## 3.13
