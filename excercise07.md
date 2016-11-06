@@ -3,25 +3,25 @@
     Using Euler-Cromer method to solve the oscillatory motion.
 # Background
 ## In small angle,Newton’s second law:
-    ![Newton’s second law](http://latex.codecogs.com/gif.latex?d^2\\theta/dt^2=-g\\theta/l).
+   ![Newton’s second law](http://latex.codecogs.com/gif.latex?d^2\\theta/dt^2=-g\\theta/l).
 ## The second-order equations:
-    ![The second-order equations](http://latex.codecogs.com/gif.latex?d\\omega/dt=-g\\theta/l).
-    ![The second-order equations](http://latex.codecogs.com/gif.latex?d\\theta/dt=\\omega).
+   ![The second-order equations](http://latex.codecogs.com/gif.latex?d\\omega/dt=-g\\theta/l).
+   ![The second-order equations](http://latex.codecogs.com/gif.latex?d\\theta/dt=\\omega).
 ## Euler-Cromer method:
-    ![Euler-Cromer method](http://latex.codecogs.com/gif.latex?\\omega_{i+1}=\\omega_{i}-(g/l)\\theta_{i}\\Delta t).
-    ![Euler-Cromer method](http://latex.codecogs.com/gif.latex?\\theta_{i+1}=\\theta_{i}+\\omega_{i+1}\\Delta t).
-    ![Euler-Cromer method](http://latex.codecogs.com/gif.latex?t_{i+1}=t_{i}+\\Delta t).
+   ![Euler-Cromer method](http://latex.codecogs.com/gif.latex?\\omega_{i+1}=\\omega_{i}-(g/l)\\theta_{i}\\Delta t).
+   ![Euler-Cromer method](http://latex.codecogs.com/gif.latex?\\theta_{i+1}=\\theta_{i}+\\omega_{i+1}\\Delta t).
+   ![Euler-Cromer method](http://latex.codecogs.com/gif.latex?t_{i+1}=t_{i}+\\Delta t).
 ## Friction:
-    ![Friction](http://latex.codecogs.com/gif.latex?-q(d\\theta/dt)).
+   ![Friction](http://latex.codecogs.com/gif.latex?-q(d\\theta/dt)).
 ## Driving force:
-    ![Driving force](http://latex.codecogs.com/gif.latex?F_{D}sin(\\Omega_{D}t)).
+   ![Driving force](http://latex.codecogs.com/gif.latex?F_{D}sin(\\Omega_{D}t)).
 ## So we obtain:
-    ![obtain](http://latex.codecogs.com/gif.latex?d\\omega/dt=-gsin\\theta/l-q(d\\theta/dt)+F_{D}sin(\\Omega_{D}t)).
-    ![obtain](http://latex.codecogs.com/gif.latex?d\\theta/dt=\\omega).
+   ![obtain](http://latex.codecogs.com/gif.latex?d\\omega/dt=-gsin\\theta/l-q(d\\theta/dt)+F_{D}sin(\\Omega_{D}t)).
+   ![obtain](http://latex.codecogs.com/gif.latex?d\\theta/dt=\\omega).
 ## With Euler-Cromer method:
-    ![With Euler-Cromer method](http://latex.codecogs.com/gif.latex?\\omega_{i+1}=\\omega_{i}+[-gsin\\theta_{i}/l-q\\omega_{i}+F_{D}sin(\\Omega_{D}t_{i})]\\Delta t).
-    ![With Euler-Cromer method](http://latex.codecogs.com/gif.latex?\\theta_{i+1}=\\theta_{i}+\\oemga_{i+1}\\Delta t).
-    ![With Euler-Cromer method](http://latex.codecogs.com/gif.latex?t_{i+1}=t_{i}+\\Delta t).
+   ![With Euler-Cromer method](http://latex.codecogs.com/gif.latex?\\omega_{i+1}=\\omega_{i}+[-gsin\\theta_{i}/l-q\\omega_{i}+F_{D}sin(\\Omega_{D}t_{i})]\\Delta t).
+   ![With Euler-Cromer method](http://latex.codecogs.com/gif.latex?\\theta_{i+1}=\\theta_{i}+\\oemga_{i+1}\\Delta t).
+   ![With Euler-Cromer method](http://latex.codecogs.com/gif.latex?t_{i+1}=t_{i}+\\Delta t).
 # Code
 ## 3.13
     import pylab as pl
@@ -160,4 +160,6 @@
 ## 3.13
 ![截图](https://github.com/tmh726699/compuational_physics_2014301020051/blob/master/p1.png)
 ## 3.14
-![截图]()
+![截图](https://github.com/tmh726699/compuational_physics_2014301020051/blob/master/p2.png)
+# Thanks
+peiyu
