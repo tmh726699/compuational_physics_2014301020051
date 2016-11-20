@@ -277,8 +277,14 @@
         plt.plot(x,y)
 # Conclusion
 ## In the case of square boundary
-  ![s]()
+  ![s](https://github.com/tmh726699/compuational_physics_2014301020051/blob/master/b1.png)
 ## In the case of elliptical boundary
+  ![s](https://github.com/tmh726699/compuational_physics_2014301020051/blob/master/e1.png)
 ## In the case of square with an inner circle boundary, and the circle is in the center
+  ![s](https://github.com/tmh726699/compuational_physics_2014301020051/blob/master/i1.png)
 ## In the case of square with an inner circle boundary and the circle is slightly off-center
+  ![s](https://github.com/tmh726699/compuational_physics_2014301020051/blob/master/o1.png)
 ## In the case of circular boundary
+  ![s](https://github.com/tmh726699/compuational_physics_2014301020051/blob/master/c1.png)
+# thanks
+  peiyu
