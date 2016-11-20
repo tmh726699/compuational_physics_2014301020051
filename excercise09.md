@@ -277,7 +277,7 @@
         plt.plot(x,y)
 # Conclusion
 ## In the case of square boundary
-
+  ![s]()
 ## In the case of elliptical boundary
 ## In the case of square with an inner circle boundary, and the circle is in the center
 ## In the case of square with an inner circle boundary and the circle is slightly off-center
