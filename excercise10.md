@@ -71,13 +71,18 @@ A = Precession()
 A.run()
 A.show_results()
 # Conclusion
-  First, we can chose that ![G](http://latex.codecogs.com/png.latex?\\alpha=0.0008,\\beta=2,e=0.206)
-  ![1]()
-
-
-
-
-
+## First, we can chose that ![G](http://latex.codecogs.com/png.latex?\\alpha=0.0008,\\beta=2,e=0.206)
+  ![1](https://github.com/tmh726699/compuational_physics_2014301020051/blob/master/k1.png)
+## Then, we chose that ![G](http://latex.codecogs.com/png.latex?\\alpha=0.0008,\\beta=2,e=0.3、0.4、0.5)
+  ![1](https://github.com/tmh726699/compuational_physics_2014301020051/blob/master/k2.png)
+## And we chose that ![G](http://latex.codecogs.com/png.latex?\\alpha=0.01,\\beta=2,e=0.206、0.3、0.4、0.5)
+  ![1](https://github.com/tmh726699/compuational_physics_2014301020051/blob/master/k3.png)
+## When we chose that ![G](http://latex.codecogs.com/png.latex?\\alpha=0.01,\\beta=2.01)
+  ![1](https://github.com/tmh726699/compuational_physics_2014301020051/blob/master/k4.png)
+## Finally, we chose that ![G](http://latex.codecogs.com/png.latex?V=1.1V_{0},\\alpha=0.01)
+  ![1](https://github.com/tmh726699/compuational_physics_2014301020051/blob/master/k5.png)
+# Thanks
+  Baidu
 
 
 
