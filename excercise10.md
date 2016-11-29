@@ -67,9 +67,9 @@
         plt.ylabel(r'$\theta$(degrees)')
         #print (self.ThetaPrecession)
         #print (self.TimePrecession)
-A = Precession()
-A.run()
-A.show_results()
+        A = Precession()
+        A.run()
+        A.show_results()
 # Conclusion
 ## First, we can chose that ![G](http://latex.codecogs.com/png.latex?\\alpha=0.0008,\\beta=2,e=0.206)
   ![1](https://github.com/tmh726699/compuational_physics_2014301020051/blob/master/k1.png)
