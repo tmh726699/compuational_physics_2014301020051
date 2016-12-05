@@ -11,6 +11,3 @@
 ![G](http://latex.codecogs.com/png.latex?\\frac{d\\omega}{dt}=\\frac{\\tau_{1}+\\tau_{2}}{I})
 ## And ![G](http://latex.codecogs.com/png.latex?I=m_{1}|r_{1}|^2+m_{2}|r_{2}|^2),so
 ![G](http://latex.codecogs.com/png.latex?\\frac{d\\omega}{dt}=-\\frac{3GM}{r_{c}^5}(x_{c}sin\\theta-y_{c}cos\\theta)(x_{c}cos\\theta)+y_{c}sin\\theta)
-
-
-
