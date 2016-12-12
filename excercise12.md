@@ -157,10 +157,10 @@ pl.show()
         return 0  
 # Conclusion
 ![1](https://github.com/tmh726699/compuational_physics_2014301020051/blob/master/z1.jpg)
-![1](https://github.com/tmh726699/compuational_physics_2014301020051/blob/master/z2.jpg)
-![1](https://github.com/tmh726699/compuational_physics_2014301020051/blob/master/z3.jpg)
-![1](https://github.com/tmh726699/compuational_physics_2014301020051/blob/master/z4.jpg)
-![1](https://github.com/tmh726699/compuational_physics_2014301020051/blob/master/z5.jpg)
+![1](https://github.com/tmh726699/compuational_physics_2014301020051/blob/master/z2.png)
+![1](https://github.com/tmh726699/compuational_physics_2014301020051/blob/master/z3.png)
+![1](https://github.com/tmh726699/compuational_physics_2014301020051/blob/master/z4.png)
+![1](https://github.com/tmh726699/compuational_physics_2014301020051/blob/master/z5.png)
 In the different situations, we can get the same results as the Electromagnetics, so that the method of these two canbe used to solve the problems. Meanwhile, we can easily get the conclusion that the method SOR can be less number of iterations to the Jacobi method.
 # Thanks
 Baidu
