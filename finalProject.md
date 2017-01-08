@@ -64,15 +64,21 @@
    n=1000:![1000](https://github.com/tmh726699/compuational_physics_2014301020051/blob/master/n1000.png)
    n=10000:![10000](https://github.com/tmh726699/compuational_physics_2014301020051/blob/master/n10000.png)
    n=100000:![100000](https://github.com/tmh726699/compuational_physics_2014301020051/blob/master/n100000.png)
-   n=1000All:![1111111](https://github.com/tmh726699/compuational_physics_2014301020051/blob/master/n1111111.png)
+   n=1000All:
+   ![1111111](https://github.com/tmh726699/compuational_physics_2014301020051/blob/master/n1111111.png)
    n=1000the picture x^2 versus t.![100](https://github.com/tmh726699/compuational_physics_2014301020051/blob/master/n1000x2.png)
    Choose the step length to right is as 1.5 times and 4 times as to left.
-   1.5times:![100](https://github.com/tmh726699/compuational_physics_2014301020051/blob/master/p1.5.png)
-   4times:![100](https://github.com/tmh726699/compuational_physics_2014301020051/blob/master/p4.png)
-   Together:![100](https://github.com/tmh726699/compuational_physics_2014301020051/blob/master/p t.png)
+   1.5times:
+   ![100](https://github.com/tmh726699/compuational_physics_2014301020051/blob/master/p1.5.png)
+   4times:
+   ![100](https://github.com/tmh726699/compuational_physics_2014301020051/blob/master/p4.png)
+   Together:
+   ![100](https://github.com/tmh726699/compuational_physics_2014301020051/blob/master/p t.png)
 
 ### 2D
-    We have two directions to walk. The walker is able to take steps of length unity along two lines. So, we can solve the problem in a lattice.We can le the walker walk in ang way, thus it's the real 2D random walk, but not the random in a 2D lattice random walk. 
+    We have two directions to walk. The walker is able to take steps of length unity along two lines. So, 
+    we can solve the problem in a lattice.We can le the walker walk in ang way, thus it's the real 2D 
+    random walk, but not the random in a 2D lattice random walk. 
 #### Code
     for n in range(100):
             s=random.randint(0,628)
@@ -88,6 +94,9 @@
   n=1000:![100](https://github.com/tmh726699/compuational_physics_2014301020051/blob/master/n1000%EF%BC%9B.png)
   n=10000:![100](https://github.com/tmh726699/compuational_physics_2014301020051/blob/master/n10000%EF%BC%9B.png)
   n=1000all：![100](https://github.com/tmh726699/compuational_physics_2014301020051/blob/master/n1111111%EF%BC%9B.png)
-  n=1000,the picture p^2 versus t:![100](https://github.com/tmh726699/compuational_physics_2014301020051/blob/master/n1000p2%EF%BC%9B.png)
-  choose the step length to x is as 3 times as to y:![100](https://github.com/tmh726699/compuational_physics_2014301020051/blob/master/x=3y.png)
-  the step length of x is 1, 3 and 5 times of the step length of y:![100](https://github.com/tmh726699/compuational_physics_2014301020051/blob/master/x=1 3 5y.png)
+  n=1000,the picture p^2 versus t:
+  ![100](https://github.com/tmh726699/compuational_physics_2014301020051/blob/master/n1000p2%EF%BC%9B.png)
+  choose the step length to x is as 3 times as to y:
+  ![100](https://github.com/tmh726699/compuational_physics_2014301020051/blob/master/x=3y.png)
+  the step length of x is 1, 3 and 5 times of the step length of y:
+  ![100](https://github.com/tmh726699/compuational_physics_2014301020051/blob/master/x=1 3 5y.png)
