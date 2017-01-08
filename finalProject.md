@@ -1,3 +1,4 @@
+
 # Final Project:Random Systems
   物基一班 滕明航 学号2014301020051
   
@@ -13,11 +14,15 @@
     approch provides precisely the type of information we are after.
 # The main body
 ## Random walk
-### Introduction
-      The simplest situation involves a walker that is able to take steps of length unity along a line.This one dimension random walk is illustrated schematimacally in figure.The walker begins at the origin, x=0, and the first step is chosen at random to be either to the left or right, each with the probability 1/2. And the next step was then chosen, and again the probabilities for stepping lift or right are both 1/2. In this example the step went left,so x2=0.This process can be repeated,and the position as a molecule in solution,the time between steps is approximately a constant,so the step number is roughly proportional to time.We will,therefore,often refer to the walker's position as a function of time.
+### 1D
+      The simplest situation involves a walker that is able to take steps of length unity along a line.This one dimension 
+      random walk is illustrated schematimacally in figure.The walker begins at the origin, x=0, and the first step is chosen 
+      at random to be either to the left or right, each with the probability 1/2. And the next step was then chosen, and again 
+      the probabilities for stepping lift or right are both 1/2. In this example the step went left,so x2=0.This process can be        repeated,and the position as a molecule in solution,the time between steps is approximately a constant,so the step number 
+      is roughly proportional to time.We will,therefore,often refer to the walker's position as a function of time.
       A routine that implements a random walk in one dimension is illustrated below.Here we gennerate a random number in the range between 0 and 1 and compare its value to 1/2.If it is less than 1/2,otherwise it steps to the left.This process is then repeated to generate xn as a function of n.Any suitable pseudo-random number generator can be used(see Appendix F),but here we use a function we choose to call rnd.
    ![100](https://github.com/tmh726699/compuational_physics_2014301020051/blob/master/rdw.jpg)
-### Code
+#### Code
     def __init__(self,x=0,y=0,z=0):
         self.x=[x]
         self.y=[y]
@@ -52,9 +57,35 @@
             self.y.append(self.temy)
             self.z.append(self.temz)
             self.n.append(self.dn)
-### Result
+#### Result
    n=100:![100](https://github.com/tmh726699/compuational_physics_2014301020051/blob/master/n100.png)
    n=1000:![1000](https://github.com/tmh726699/compuational_physics_2014301020051/blob/master/n1000.png)
    n=10000:![10000](https://github.com/tmh726699/compuational_physics_2014301020051/blob/master/n10000.png)
    n=100000:![100000](https://github.com/tmh726699/compuational_physics_2014301020051/blob/master/n100000.png)
-   All:![111111](https://github.com/tmh726699/compuational_physics_2014301020051/blob/master/n111111.png)
+   n=1000All:![1111111](https://github.com/tmh726699/compuational_physics_2014301020051/blob/master/n1111111.png)
+   n=1000the picture x^2 versus t.![100]()
+   Choose the step length to right is as 1.5 times and 4 times as to left.
+   1.5times:
+   4times:
+   Together:
+
+### 2D
+    We have two directions to walk. The walker is able to take steps of length unity along two lines. So, we can solve the problem in a lattice.We can le the walker walk in ang way, thus it's the real 2D random walk, but not the random in a 2D lattice random walk. 
+#### Code
+    for n in range(100):
+            s=random.randint(0,628)
+            s=s/100
+            self.dn=self.dn+1
+            self.temx=self.temx+1*math.cos(s)
+            self.temy=self.temy+1*math.sin(s)
+            self.x.append(self.temx)
+            self.y.append(self.temy)
+            self.n.append(self.dn)
+#### Result
+  n=100:
+  n=1000:
+  n=10000:
+  n=1000all：
+  n=1000,the picture p^2 versus t:
+  choose the step length to x is as 3 times as to y:
+  the step length of x is 1, 3 and 5 times of the step length of y:
