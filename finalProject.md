@@ -16,7 +16,7 @@
 ### Introduction
       The simplest situation involves a walker that is able to take steps of length unity along a line.This one dimension random walk is illustrated schematimacally in figure.The walker begins at the origin, x=0, and the first step is chosen at random to be either to the left or right, each with the probability 1/2. And the next step was then chosen, and again the probabilities for stepping lift or right are both 1/2. In this example the step went left,so x2=0.This process can be repeated,and the position as a molecule in solution,the time between steps is approximately a constant,so the step number is roughly proportional to time.We will,therefore,often refer to the walker's position as a function of time.
       A routine that implements a random walk in one dimension is illustrated below.Here we gennerate a random number in the range between 0 and 1 and compare its value to 1/2.If it is less than 1/2,otherwise it steps to the left.This process is then repeated to generate xn as a function of n.Any suitable pseudo-random number generator can be used(see Appendix F),but here we use a function we choose to call rnd.
-      ![p]()
+      ![100](https://github.com/tmh726699/compuational_physics_2014301020051/blob/master/rdw.jpg)
 ### Code
     def __init__(self,x=0,y=0,z=0):
         self.x=[x]
@@ -53,8 +53,8 @@
             self.z.append(self.temz)
             self.n.append(self.dn)
 ### Result
-    n=100:![100]()
-    n=1000:
-    n=10000:
-    n=100000:
-    All:
+    n=100:![100](https://github.com/tmh726699/compuational_physics_2014301020051/blob/master/n100.png)
+    n=1000:![1000](https://github.com/tmh726699/compuational_physics_2014301020051/blob/master/n1000.png)
+    n=10000:![10000](https://github.com/tmh726699/compuational_physics_2014301020051/blob/master/n10000.png)
+    n=100000:![100000](https://github.com/tmh726699/compuational_physics_2014301020051/blob/master/n100000.png)
+    All:![111111](https://github.com/tmh726699/compuational_physics_2014301020051/blob/master/n111111.png)
